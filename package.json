@@ -20,6 +20,7 @@
   "author": "Anne Sofie Hammerøy",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
