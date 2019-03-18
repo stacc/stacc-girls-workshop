@@ -1,0 +1,28 @@
+{
+  "name": "stacc-girls-workshop",
+  "version": "1.0.0",
+  "description": "Project for use in the first Stacc Girls Developer Workshop",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src",
+    "serve": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stacc-as/stacc-girls-workshop.git"
+  },
+  "keywords": [
+    "rest-api",
+    "express",
+    "node",
+    "js"
+  ],
+  "author": "Anne Sofie Hammerøy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
