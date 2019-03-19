@@ -27,13 +27,3 @@ router.get("/", async (req, res) => {
 });
 
 module.exports = router;
-
-/*
-Karakterskala:
-0 = Ingen brudd på regelverket funnet. Stort smil.
-1 = Mindre brudd på regelverket som ikke krever oppfølging. Stort smil.
-2 = Brudd på regelverket som krever oppfølging. Strekmunn.
-3 = Alvorlig brudd på regelverket. Sur munn.
-4 = Ikke aktuelt - Virksomheten har ikke denne aktiviteten ved tilsynsobjektet. Påvirker ikke smilefjeskarakter.
-5 = Ikke vurdert - Mattilsynet har ikke vurdert kravpunktet ved dette tilsynet. Påvirker ikke smilefjeskarakter. Dersom det hadde blitt avdekket mistanke om vesentlige eller åpenbare avvik i forbindelse med inspeksjonen, ville kravpunktet blitt vurdert.
-*/
