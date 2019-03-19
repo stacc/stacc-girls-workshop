@@ -4,8 +4,7 @@
   "description": "Project for use in the first Stacc Girls Developer Workshop",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src",
-    "serve": "node src"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +21,5 @@
   "dependencies": {
     "axios": "^0.18.0",
     "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
   }
 }
